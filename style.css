@@ -1,0 +1,28 @@
+body
+{
+	background-image:url("fond.jpg");
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	width:100%;
+	height:100%;
+}
+
+.log{
+	position:absolute;
+	  left: 50%;
+	  top: 50%;
+	  box-shadow: 8px 8px 12px #000000;
+	  border-radius: 20px;
+	  background-color: #909090;
+	  width: 200px;
+	  height: 200px;
+	  margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
+	  margin-top: -100px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}
+.img{
+	height: 30px;
+}
+.new{
+	color: white;
+}
